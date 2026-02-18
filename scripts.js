@@ -2,7 +2,7 @@
 const WHATSAPP = '5492665038831'; // <-- tu número sin espacios ni signos
 const IFRAME_URLS = {
   regalamonedas: 'https://www.regalamonedas.lat',
-  ganaencasa: 'https://www.ganaencasa24.com',
+  ganaencasa: 'https://www.bet30.biz',
   tiger: 'https://casinotiger.live'
 };
 
