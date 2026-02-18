@@ -2,7 +2,6 @@
 const WHATSAPP = '5492665038831'; // <-- tu número sin espacios ni signos
 const IFRAME_URLS = {
   regalamonedas: 'https://www.regalamonedas.lat',
-  ganaencasa: 'https://www.bet30.biz',
   tiger: 'https://casinotiger.live'
 };
 
@@ -28,7 +27,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
       const platform = btn.dataset.platform;
       const nick = nickInput.value?.trim() || 'Usuario';
 
-      if(platform === 'ganamos' || platform === 'zeus'){
+      if(platform === 'bet30'){
         if(typeof fbq!=='undefined'){ fbq('track','Contact'); }
         const url = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent('Quiero un usuario en ' + platform)}`;
         window.open(url, '_blank', 'noopener');
