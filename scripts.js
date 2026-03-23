@@ -1,5 +1,5 @@
 // Config
-const WHATSAPP = '5492665038831'; // <-- tu número sin espacios ni signos
+const WHATSAPP = '5492236357351'; // <-- tu número sin espacios ni signos
 const IFRAME_URLS = {
   regalamonedas: 'https://www.regalamonedas.lat',
   tiger: 'https://casinotiger.live'
